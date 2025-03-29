@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "My Chrome Extension",
+    "description": "The name of the extension"
+  },
+  "extensionDescription": {
+    "message": "A Chrome Extension Template",
+    "description": "The description of the extension"
+  },
+  "popupTitle": {
+    "message": "My Extension",
+    "description": "Title in the popup header"
+  },
+  "settingsTitle": {
+    "message": "Extension Settings",
+    "description": "Title in the options header"
+  },
+  "themeToggle": {
+    "message": "Theme Toggle",
+    "description": "Theme toggle button"
+  },
+  "statusEnabled": {
+    "message": "Extension is enabled",
+    "description": "Status message when extension is enabled"
+  },
+  "turnOff": {
+    "message": "Turn off",
+    "description": "Button to turn off the extension"
+  },
+  "turnOn": {
+    "message": "Turn on",
+    "description": "Button to turn on the extension"
+  },
+  "featuresTitle": {
+    "message": "Features",
+    "description": "Title for features section"
+  },
+  "feature1": {
+    "message": "Feature 1",
+    "description": "Feature 1 label"
+  },
+  "feature2": {
+    "message": "Feature 2",
+    "description": "Feature 2 label"
+  },
+  "feature3": {
+    "message": "Feature 3",
+    "description": "Feature 3 label"
+  },
+  "executeAction": {
+    "message": "Execute Action",
+    "description": "Button to execute main action"
+  },
+  "advancedSettings": {
+    "message": "Advanced Settings",
+    "description": "Button to open options page"
+  },
+  "version": {
+    "message": "Version",
+    "description": "Version label"
+  },
+  "generalSettings": {
+    "message": "General Settings",
+    "description": "General settings section title"
+  },
+  "advancedOptions": {
+    "message": "Advanced Options",
+    "description": "Advanced options section title"
+  },
+  "autoStart": {
+    "message": "Auto Start",
+    "description": "Auto start setting label"
+  },
+  "autoStartDesc": {
+    "message": "Automatically enable the extension when the browser starts",
+    "description": "Auto start setting description"
+  },
+  "notifications": {
+    "message": "Notifications",
+    "description": "Notifications setting label"
+  },
+  "notificationsDesc": {
+    "message": "Show notifications from the extension",
+    "description": "Notifications setting description"
+  },
+  "dataSync": {
+    "message": "Data Sync",
+    "description": "Data sync setting label"
+  },
+  "dataSyncDesc": {
+    "message": "Sync data across devices",
+    "description": "Data sync setting description"
+  },
+  "updateInterval": {
+    "message": "Update Interval",
+    "description": "Update interval setting label"
+  },
+  "updateIntervalDesc": {
+    "message": "Set the frequency of data updates",
+    "description": "Update interval setting description"
+  },
+  "minutes": {
+    "message": "$1 minutes",
+    "description": "Minutes label for update interval"
+  },
+  "hour": {
+    "message": "1 hour",
+    "description": "Hour label for update interval"
+  },
+  "operationMode": {
+    "message": "Operation Mode",
+    "description": "Operation mode setting label"
+  },
+  "operationModeDesc": {
+    "message": "Set the operation mode of the extension",
+    "description": "Operation mode setting description"
+  },
+  "lightMode": {
+    "message": "Light (Memory Efficient)",
+    "description": "Light mode option"
+  },
+  "balancedMode": {
+    "message": "Balanced",
+    "description": "Balanced mode option"
+  },
+  "fullMode": {
+    "message": "Full (All Features)",
+    "description": "Full mode option"
+  },
+  "customCSS": {
+    "message": "Custom CSS",
+    "description": "Custom CSS setting label"
+  },
+  "customCSSDesc": {
+    "message": "Set custom CSS to apply to web pages",
+    "description": "Custom CSS setting description"
+  },
+  "customCSSPlaceholder": {
+    "message": "/* Enter custom CSS here */",
+    "description": "Custom CSS placeholder"
+  },
+  "siteSettings": {
+    "message": "Site-specific Settings",
+    "description": "Site-specific settings section title"
+  },
+  "domain": {
+    "message": "Domain",
+    "description": "Domain label for site rules"
+  },
+  "enabled": {
+    "message": "Enabled",
+    "description": "Enabled label for site rules"
+  },
+  "actions": {
+    "message": "Actions",
+    "description": "Actions label for site rules"
+  },
+  "addSite": {
+    "message": "Add Site",
+    "description": "Button to add a site rule"
+  },
+  "dataManagement": {
+    "message": "Data Management",
+    "description": "Data management section title"
+  },
+  "storedDataSize": {
+    "message": "Stored Data Size:",
+    "description": "Stored data size label"
+  },
+  "lastUpdate": {
+    "message": "Last Update:",
+    "description": "Last update label"
+  },
+  "exportData": {
+    "message": "Export Data",
+    "description": "Button to export data"
+  },
+  "importData": {
+    "message": "Import Data",
+    "description": "Button to import data"
+  },
+  "clearData": {
+    "message": "Clear Data",
+    "description": "Button to clear data"
+  },
+  "resetToDefaults": {
+    "message": "Reset to Defaults",
+    "description": "Button to reset options"
+  },
+  "saveSettings": {
+    "message": "Save Settings",
+    "description": "Button to save options"
+  },
+  "language": {
+    "message": "Language",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Select the display language",
+    "description": "Language setting description"
+  },
+  "english": {
+    "message": "English",
+    "description": "English language option"
+  },
+  "japanese": {
+    "message": "Japanese",
+    "description": "Japanese language option"
+  }
+}

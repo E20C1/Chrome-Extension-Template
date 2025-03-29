@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="popup-title"></title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <header class="popup-header">
+      <h1 id="popup-title"></h1>
+      <div class="theme-toggle">
+        <input type="checkbox" id="theme-switch" class="theme-checkbox">
+        <label for="theme-switch" class="theme-label">
+          <span class="theme-icon">🌙</span>
+          <span class="theme-icon">☀️</span>
+        </label>
+      </div>
+    </header>
+
+    <main class="popup-content">
+      <div class="status-section">
+        <div class="status-indicator enabled" id="status-indicator"></div>
+        <div class="status-text" id="status-text"></div>
+        <button id="toggle-status" class="action-button toggle-button"></button>
+      </div>
+
+      <div class="features-section">
+        <h2 id="features-title"></h2>
+        <ul class="features-list">
+          <li class="feature-item">
+            <label class="feature-label">
+              <input type="checkbox" class="feature-toggle" data-feature="feature1" checked>
+              <span id="feature1-text"></span>
+            </label>
+          </li>
+          <li class="feature-item">
+            <label class="feature-label">
+              <input type="checkbox" class="feature-toggle" data-feature="feature2" checked>
+              <span id="feature2-text"></span>
+            </label>
+          </li>
+          <li class="feature-item">
+            <label class="feature-label">
+              <input type="checkbox" class="feature-toggle" data-feature="feature3" checked>
+              <span id="feature3-text"></span>
+            </label>
+          </li>
+        </ul>
+      </div>
+
+      <div class="actions-section">
+        <button id="action-button" class="action-button primary-button"></button>
+        <button id="options-button" class="action-button secondary-button"></button>
+      </div>
+    </main>
+
+    <footer class="popup-footer">
+      <div class="version"><span id="version-text"></span> 1.0.0</div>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

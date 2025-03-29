@@ -1,0 +1,89 @@
+/**
+ * Content Script CSS for Chrome Extension
+ * 
+ * These styles are injected into web pages matched by the content script.
+ * Use specific class names to avoid conflicts with the page's own styles.
+ */
+
+/* Container for extension elements */
+.extension-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* Header section */
+.extension-header {
+  padding: 12px 16px;
+  background-color: #4285f4;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Main content area */
+.extension-body {
+  padding: 16px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Button styles */
+.extension-button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.extension-button:hover {
+  background-color: #3367d6;
+}
+
+/* Input styles */
+.extension-input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Dark theme styles (applied conditionally) */
+.extension-dark-theme .extension-container {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+.extension-dark-theme .extension-header {
+  background-color: #202124;
+}
+
+.extension-dark-theme .extension-button {
+  background-color: #5f6368;
+}
+
+.extension-dark-theme .extension-button:hover {
+  background-color: #80868b;
+}
+
+.extension-dark-theme .extension-input {
+  background-color: #202124;
+  color: #f0f0f0;
+  border-color: #5f6368;
+}

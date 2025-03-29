@@ -1,0 +1,25 @@
+# Node.js関連
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+yarn.lock
+
+# ビルド関連
+dist/
+build/
+*.zip
+
+# エディタ関連
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Chrome拡張機能開発関連
+*.crx
+*.pem
+.env 

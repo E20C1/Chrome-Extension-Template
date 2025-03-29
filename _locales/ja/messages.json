@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "マイ Chrome拡張機能",
+    "description": "The name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Chrome拡張機能のテンプレート",
+    "description": "The description of the extension"
+  },
+  "popupTitle": {
+    "message": "マイ拡張機能",
+    "description": "Title in the popup header"
+  },
+  "settingsTitle": {
+    "message": "拡張機能の設定",
+    "description": "Title in the options header"
+  },
+  "themeToggle": {
+    "message": "テーマ切り替え",
+    "description": "Theme toggle button"
+  },
+  "statusEnabled": {
+    "message": "拡張機能は有効です",
+    "description": "Status message when extension is enabled"
+  },
+  "turnOff": {
+    "message": "オフにする",
+    "description": "Button to turn off the extension"
+  },
+  "turnOn": {
+    "message": "オンにする",
+    "description": "Button to turn on the extension"
+  },
+  "featuresTitle": {
+    "message": "機能",
+    "description": "Title for features section"
+  },
+  "feature1": {
+    "message": "機能 1",
+    "description": "Feature 1 label"
+  },
+  "feature2": {
+    "message": "機能 2",
+    "description": "Feature 2 label"
+  },
+  "feature3": {
+    "message": "機能 3",
+    "description": "Feature 3 label"
+  },
+  "executeAction": {
+    "message": "アクションを実行",
+    "description": "Button to execute main action"
+  },
+  "advancedSettings": {
+    "message": "詳細設定",
+    "description": "Button to open options page"
+  },
+  "version": {
+    "message": "バージョン",
+    "description": "Version label"
+  },
+  "generalSettings": {
+    "message": "一般設定",
+    "description": "General settings section title"
+  },
+  "advancedOptions": {
+    "message": "詳細設定",
+    "description": "Advanced options section title"
+  },
+  "autoStart": {
+    "message": "自動起動",
+    "description": "Auto start setting label"
+  },
+  "autoStartDesc": {
+    "message": "ブラウザ起動時に拡張機能を自動的に有効化します",
+    "description": "Auto start setting description"
+  },
+  "notifications": {
+    "message": "通知",
+    "description": "Notifications setting label"
+  },
+  "notificationsDesc": {
+    "message": "拡張機能からの通知を表示します",
+    "description": "Notifications setting description"
+  },
+  "dataSync": {
+    "message": "データ同期",
+    "description": "Data sync setting label"
+  },
+  "dataSyncDesc": {
+    "message": "デバイス間でデータを同期します",
+    "description": "Data sync setting description"
+  },
+  "updateInterval": {
+    "message": "更新間隔",
+    "description": "Update interval setting label"
+  },
+  "updateIntervalDesc": {
+    "message": "データ更新の頻度を設定します",
+    "description": "Update interval setting description"
+  },
+  "minutes": {
+    "message": "$1分",
+    "description": "Minutes label for update interval"
+  },
+  "hour": {
+    "message": "1時間",
+    "description": "Hour label for update interval"
+  },
+  "operationMode": {
+    "message": "動作モード",
+    "description": "Operation mode setting label"
+  },
+  "operationModeDesc": {
+    "message": "拡張機能の動作モードを設定します",
+    "description": "Operation mode setting description"
+  },
+  "lightMode": {
+    "message": "ライト（省メモリ）",
+    "description": "Light mode option"
+  },
+  "balancedMode": {
+    "message": "バランス",
+    "description": "Balanced mode option"
+  },
+  "fullMode": {
+    "message": "フル（全機能）",
+    "description": "Full mode option"
+  },
+  "customCSS": {
+    "message": "カスタムCSS",
+    "description": "Custom CSS setting label"
+  },
+  "customCSSDesc": {
+    "message": "ウェブページに適用するカスタムCSSを設定します",
+    "description": "Custom CSS setting description"
+  },
+  "customCSSPlaceholder": {
+    "message": "/* カスタムCSSをここに入力 */",
+    "description": "Custom CSS placeholder"
+  },
+  "siteSettings": {
+    "message": "サイト別設定",
+    "description": "Site-specific settings section title"
+  },
+  "domain": {
+    "message": "ドメイン",
+    "description": "Domain label for site rules"
+  },
+  "enabled": {
+    "message": "有効",
+    "description": "Enabled label for site rules"
+  },
+  "actions": {
+    "message": "操作",
+    "description": "Actions label for site rules"
+  },
+  "addSite": {
+    "message": "サイトを追加",
+    "description": "Button to add a site rule"
+  },
+  "dataManagement": {
+    "message": "データ管理",
+    "description": "Data management section title"
+  },
+  "storedDataSize": {
+    "message": "保存データサイズ:",
+    "description": "Stored data size label"
+  },
+  "lastUpdate": {
+    "message": "最終更新:",
+    "description": "Last update label"
+  },
+  "exportData": {
+    "message": "データのエクスポート",
+    "description": "Button to export data"
+  },
+  "importData": {
+    "message": "データのインポート",
+    "description": "Button to import data"
+  },
+  "clearData": {
+    "message": "データを削除",
+    "description": "Button to clear data"
+  },
+  "resetToDefaults": {
+    "message": "デフォルトに戻す",
+    "description": "Button to reset options"
+  },
+  "saveSettings": {
+    "message": "設定を保存",
+    "description": "Button to save options"
+  },
+  "language": {
+    "message": "言語",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "表示言語を選択します",
+    "description": "Language setting description"
+  },
+  "english": {
+    "message": "英語",
+    "description": "English language option"
+  },
+  "japanese": {
+    "message": "日本語",
+    "description": "Japanese language option"
+  }
+}

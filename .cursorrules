@@ -1,0 +1,50 @@
+# Chrome Extension Project Configuration
+
+# General Project Information
+- This project is a Chrome Extension compatible with both Windows and Mac platforms
+- Follow modern JavaScript/TypeScript best practices for web extensions
+- Use descriptive names for all functions and variables
+- Add appropriate comments for complex logic
+- Maintain clear separation of concerns between different extension components
+
+# Project Structure
+- Organize files according to their role in the extension:
+  - manifest.json as the main configuration file
+  - background scripts in root or scripts/ directory
+  - content scripts in the content/ directory
+  - popup interface in the popup/ directory
+  - options page in the options/ directory
+  - assets (images, icons) in their respective directories
+
+# Code Style & Formatting
+- Use consistent indentation (2 spaces preferred)
+- Follow the Airbnb JavaScript Style Guide
+- Use ES6+ features where appropriate
+- Separate HTML, CSS, and JavaScript into different files
+- Use semantic HTML for popup and options pages
+
+# Extension Specific Guidelines
+- Keep the manifest.json file up-to-date with Chrome's latest requirements
+- Minimize permissions to only what the extension actually needs
+- Use event-driven programming for background scripts
+- Implement proper message passing between different extension components
+- Cache data appropriately to minimize storage API usage
+
+# Cross-Browser Compatibility
+- Design with compatibility for both Chrome and Firefox in mind
+- Use WebExtension APIs rather than browser-specific implementations
+- Test on both Windows and Mac platforms
+- Implement graceful fallbacks for unsupported features
+
+# Build & Development
+- Use npm as the package manager
+- Output built files to a dist/ directory
+- Configure hot reload for faster development
+- Set up the development server on port 3000
+- Create a production build that zips the extension for distribution
+
+# Testing & Quality
+- Write unit tests for core functionality
+- Test the extension in both normal and incognito modes
+- Verify that the extension works across different Chrome versions
+- Use ESLint for code quality checks

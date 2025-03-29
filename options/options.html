@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="settings-title"></title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="options-container">
+    <header class="options-header">
+      <h1 id="settings-title"></h1>
+      <div class="theme-toggle">
+        <input type="checkbox" id="theme-switch" class="theme-checkbox">
+        <label for="theme-switch" class="theme-label">
+          <span class="theme-icon">🌙</span>
+          <span class="theme-icon">☀️</span>
+        </label>
+      </div>
+    </header>
+
+    <main class="options-content">
+      <section class="settings-section">
+        <h2 id="general-settings-title"></h2>
+        
+        <div class="setting-item">
+          <div class="setting-label" id="auto-start-label"></div>
+          <div class="setting-control">
+            <label class="toggle-switch">
+              <input type="checkbox" id="auto-start" checked>
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+          <div class="setting-description" id="auto-start-desc"></div>
+        </div>
+        
+        <div class="setting-item">
+          <div class="setting-label" id="notifications-label"></div>
+          <div class="setting-control">
+            <label class="toggle-switch">
+              <input type="checkbox" id="notifications" checked>
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+          <div class="setting-description" id="notifications-desc"></div>
+        </div>
+        
+        <div class="setting-item">
+          <div class="setting-label" id="data-sync-label"></div>
+          <div class="setting-control">
+            <label class="toggle-switch">
+              <input type="checkbox" id="data-sync">
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+          <div class="setting-description" id="data-sync-desc"></div>
+        </div>
+      </section>
+
+      <section class="settings-section">
+        <h2 id="advanced-options-title"></h2>
+        
+        <div class="setting-item">
+          <div class="setting-label" id="update-interval-label"></div>
+          <div class="setting-control">
+            <select id="update-interval" class="select-control">
+              <option value="5">5</option>
+              <option value="15">15</option>
+              <option value="30" selected>30</option>
+              <option value="60" id="hour-option"></option>
+            </select>
+          </div>
+          <div class="setting-description" id="update-interval-desc"></div>
+        </div>
+        
+        <div class="setting-item">
+          <div class="setting-label" id="operation-mode-label"></div>
+          <div class="setting-control">
+            <select id="operation-mode" class="select-control">
+              <option value="light" id="light-mode-option" selected></option>
+              <option value="balanced" id="balanced-mode-option"></option>
+              <option value="full" id="full-mode-option"></option>
+            </select>
+          </div>
+          <div class="setting-description" id="operation-mode-desc"></div>
+        </div>
+        
+        <div class="setting-item">
+          <div class="setting-label" id="custom-css-label"></div>
+          <div class="setting-control full-width">
+            <textarea id="custom-css" class="textarea-control" placeholder=""></textarea>
+          </div>
+          <div class="setting-description" id="custom-css-desc"></div>
+        </div>
+      </section>
+
+      <section class="settings-section">
+        <h2 id="site-settings-title"></h2>
+        
+        <div class="site-rules">
+          <div class="site-rule-header">
+            <div class="site-rule-domain" id="domain-label"></div>
+            <div class="site-rule-enabled" id="enabled-label"></div>
+            <div class="site-rule-actions" id="actions-label"></div>
+          </div>
+          
+          <div id="site-rules-list">
+            <!-- サイトルールはJSで動的に追加されます -->
+            <div class="site-rule-item">
+              <div class="site-rule-domain">example.com</div>
+              <div class="site-rule-enabled">
+                <label class="toggle-switch small">
+                  <input type="checkbox" checked>
+                  <span class="toggle-slider"></span>
+                </label>
+              </div>
+              <div class="site-rule-actions">
+                <button class="icon-button edit-rule">✏️</button>
+                <button class="icon-button delete-rule">🗑️</button>
+              </div>
+            </div>
+          </div>
+          
+          <button id="add-site-rule" class="action-button"></button>
+        </div>
+      </section>
+      
+      <section class="settings-section">
+        <h2 id="data-management-title"></h2>
+        
+        <div class="data-management">
+          <div class="data-info">
+            <div><span id="stored-data-size-label"></span> <span id="data-size">0.2 MB</span></div>
+            <div><span id="last-update-label"></span> <span id="last-update">2023-03-29 15:45</span></div>
+          </div>
+          
+          <div class="data-actions">
+            <button id="export-data" class="action-button secondary-button"></button>
+            <button id="import-data" class="action-button secondary-button"></button>
+            <button id="clear-data" class="action-button warning-button"></button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="options-footer">
+      <div class="save-section">
+        <button id="reset-options" class="action-button secondary-button"></button>
+        <button id="save-options" class="action-button primary-button"></button>
+      </div>
+      <div class="options-version"><span id="version-text"></span> 1.0.0</div>
+    </footer>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>
