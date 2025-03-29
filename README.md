@@ -7,7 +7,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 <p align="center">
-  <img src="https://via.placeholder.com/150?text=CET" alt="Chrome Extension Template Logo" width="150">
+  <img src="assets/icons/icon128.png" alt="Chrome Extension Icon" width="128">
 </p>
 
 > A template for easily developing the latest Chrome extensions
@@ -25,10 +25,6 @@
 - [Todo](#todo-)
 
 ## Features 💯
-
-<p align="center">
-  <img src="assets/icons/icon128.png" alt="Chrome Extension Icon" width="128">
-</p>
 
 <table align="center">
   <tr>
